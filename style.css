@@ -1,0 +1,59 @@
+.header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    text-align: center;
+    color: rgb(240, 68, 38);
+}
+
+/* I think this is a css comment. Above is the main page styling */
+/* Below is lasagna page styling */
+
+.list {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: left;
+    color: rgb(123, 30, 30);
+}
+
+.lasagna.header {
+    text-align: left;
+    background-color: yellow;
+}
+
+.description {
+    text-align: left;
+    font-size: 18px;
+}
+
+.lasagna.ingredients {
+    font-size: 18px;
+    background-color: white;
+}
+
+.lasagna.steps {
+    font-size: 18px;
+    background-color: white;
+}
+
+.lasagna-ingred {
+    font-size: 16px;
+}
+
+.sublist {
+    font-size: 14px;
+}
+
+.lasagna-steps {
+    font-size: 16px;
+}
+
+p {
+    color: rgb(123, 30, 30);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* below is cheddar straw styling */
+
+
+
+
