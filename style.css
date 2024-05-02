@@ -1,33 +1,42 @@
-.header {
+h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 48px;
     text-align: center;
-    color: rgb(240, 68, 38);
 }
 
-/* I think this is a css comment. Above is the main page styling */
-/* Below is lasagna page styling */
-
-.list {
+.main.list {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     text-align: left;
-    color: rgb(123, 30, 30);
 }
+
+.one {
+    color: rgb(217, 0, 255);
+}
+
+.two {
+    color: rgb(0, 174, 255);
+}
+
+.three {
+    color: rgb(3, 255, 83);
+}
+/* I think this is a css comment. Above is the main page styling */
+/* Below is lasagna page styling */
 
 .lasagna.header {
     text-align: left;
     background-color: yellow;
+    color: rgb(240, 68, 38);
 }
 
-.description {
+h3 {
     text-align: left;
-    font-size: 18px;
-}
+    font-size: 20px;
+} /* description is for all pages */
 
-.lasagna.ingredients {
+h4 {
     font-size: 18px;
-    background-color: white;
 }
 
 .lasagna.steps {
@@ -41,19 +50,29 @@
 
 .sublist {
     font-size: 14px;
-}
+} /*sublist is for all pages... but only lasagna has sublists*/
 
 .lasagna-steps {
     font-size: 16px;
 }
 
-p {
+.l-para {
     color: rgb(123, 30, 30);
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} /* for all paragraphs */
 
 /* below is cheddar straw styling */
 
+.ccs.header {
+    text-align: left;
+}
 
 
+/*below is chocky chip cookie styling */
 
+.ccc.header {
+    text-align: left;
+}
