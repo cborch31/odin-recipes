@@ -4,22 +4,52 @@ h1 {
     text-align: center;
 }
 
+div {
+    text-align: center;
+    /* outline: 2px solid red; */
+    margin: auto 480px;
+}
+
+.main.header {
+    box-sizing: border-box;
+    background-color: rgb(255, 217, 217);
+    color: rgb(43, 110, 132);
+    padding: 40px;
+}
+
 .main.list {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     text-align: left;
 }
 
+.main-one, .main-two, .main-three {
+
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.one, .two, .three {
+    padding: 10px;
+}
+
 .one {
-    color: rgb(217, 0, 255);
+    color: rgb(43, 110, 132);
+    background-color: rgb(255, 217, 217);
+
 }
 
 .two {
-    color: rgb(0, 174, 255);
+    color: rgb(43, 110, 132);
+    background-color: rgb(255, 217, 217);
+   
 }
 
 .three {
-    color: rgb(3, 255, 83);
+    color: rgb(43, 110, 132);
+    background-color: rgb(255, 217, 217);
+
 }
 /* I think this is a css comment. Above is the main page styling */
 /* Below is lasagna page styling */
